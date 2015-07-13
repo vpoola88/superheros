@@ -1,0 +1,6 @@
+  <h1><%= superhero.super_name %></h1>
+  <h3><%= superhero.real_name %></h3>
+  <h3><%= superhero.power %></h3>
+  <%= link_to "Delete Superhero",
+    superhero_path(superhero),
+    method: :delete %>

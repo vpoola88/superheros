@@ -1,0 +1,17 @@
+<h1>Superhero Fantasy Land</h1>
+
+<div id="landing-pad">/temp landing pad/</div>
+
+<%= form_for @new_superhero do |f| %>
+  Real Name: <%= f.text_field :real_name, value: "Peter Parker" %><br />
+  Super Name : <%= f.text_field :super_name, value: "Spider Man" %><br />
+  Power : <%= f.text_field :power, value: "web thing" %><br />
+  Weakness   : <%= f.text_field :weakness, value: "web thing" %><br />
+  Age : <%= f.text_field :age, value: 20 %><br />
+  <%= f.submit %>
+<% end %>
+
+<div class="practice"></div>
+
+
+
